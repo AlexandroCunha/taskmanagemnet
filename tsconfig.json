@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                   // Define o padrão ES6 para o JavaScript gerado.
+    "module": "CommonJS",              // Usa o padrão CommonJS para módulos.
+    "outDir": "./dist",                // Diretório para os arquivos gerados.
+    "rootDir": "./src",                // Diretório raiz dos arquivos fonte.
+    "strict": true,                    // Ativa todas as verificações estritas de tipo.
+    "esModuleInterop": true,           // Permite interoperabilidade com módulos CommonJS.
+    "forceConsistentCasingInFileNames": true, // Força uso consistente de maiúsculas/minúsculas em imports.
+    "skipLibCheck": true               // Ignora verificação de arquivos .d.ts.
+  },
+  "include": ["src/**/*"],             // Inclui todos os arquivos da pasta src.
+  "exclude": ["node_modules"]          // Exclui a pasta node_modules.
+}
